@@ -8,15 +8,21 @@
     "skipLibCheck": true,
 
     // Added
-    "jsx": "react",
-    "module": "ESNext",
     "declaration": true,
     "declarationDir": "types",
     "sourceMap": true,
     "rootDir": "src",
     "outDir": "dist",
-    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
   }
 }
